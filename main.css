@@ -1,0 +1,64 @@
+video{              
+    position: fixed;              
+    right: 0px;             
+     bottom: 0px;              
+     min-width: 100%;              
+     min-height: 100%;             
+      height: auto;             
+       width: auto;  
+       z-index: 2;            /*加滤镜*/              /*-webkit-filter: grayscale(100%);*/              /*filter:grayscale(100%);*/          
+    }          
+
+body {
+    background-image: url(./bg/bg.gif);
+    background-position: center center;
+
+    /* 背景图不平铺 */
+
+    background-repeat: no-repeat;
+
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed; 
+
+    /* 让背景图基于容器大小伸缩 */
+   background-size: cover;
+
+   /* 设置背景颜色，背景图加载过程中会显示背景色 */
+  
+}
+       
+source{              
+    min-width: 100%;             
+     min-height: 100%;              
+     height: auto;              
+     width: auto; 
+     z-index: 1;         
+    }
+
+h1 {
+    color: rgb(228, 53, 140);
+    width: 520px;
+    margin: 200px auto;
+    font-size: 50px;
+}
+p {
+    position: relative;
+    margin-top: 100px;
+}
+
+.life-photo {
+    background-color:rgba(252, 214, 231, 0.425)
+}
+img {
+    width: 300px;
+    border-radius: 300px;
+}
+
+.picture {
+    width: 300px;
+    margin: 50px auto;
+}
+.role {
+    display: flex;
+    flex-direction: row;
+}
