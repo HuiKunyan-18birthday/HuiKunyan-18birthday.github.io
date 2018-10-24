@@ -1,17 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
-video{              
-    position: fixed;              
-    right: 0px;             
-     bottom: 0px;              
-     min-width: 100%;              
-     min-height: 100%;             
-      height: auto;             
-       width: auto;  
-       z-index: 2;            /*加滤镜*/              /*-webkit-filter: grayscale(100%);*/              /*filter:grayscale(100%);*/          
-    }          
+}         
 
 body {
     background-image: url(./bg/bg.gif);
@@ -30,14 +20,6 @@ body {
    /* 设置背景颜色，背景图加载过程中会显示背景色 */
   
 }
-       
-source{              
-    min-width: 100%;             
-     min-height: 100%;              
-     height: auto;              
-     width: auto; 
-     z-index: 1;         
-    }
 
 .bir_title {
     text-align: center;
@@ -137,6 +119,8 @@ h1 {
 }
 .with_me img{
     height: 600px;
+    border-radius: 20px;
+    box-shadow: -10px -10px 5px #dccfdf; 
 }
 
 .with_me p {
